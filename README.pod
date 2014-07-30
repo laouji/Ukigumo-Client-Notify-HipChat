@@ -1,0 +1,28 @@
+=head1 NAME
+
+Ukigumo::Client::Notify::HipChat - send Ukigumo notifications to HipChat
+
+=head1 SYNOPSIS
+
+    $ukigumo->push_notifier(
+      Ukigumo::Client::Notify::HipChat->new({
+        token => $api_token,
+        room_id => $api_room_id,
+      })
+    );
+
+=head1 DESCRIPTION
+
+This is a L<Ukigumo::Client> plugin that lets you send notifications to HipChat using the v2 api.
+
+=head1 SEE ALSO
+
+L<Ukigumo::Client>, L<Ukigumo::Server>, L<https://www.hipchat.com/docs/apiv2>.
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
+
+=cut
